@@ -9,16 +9,17 @@ class LocationDetail extends StatelessWidget {
       appBar: AppBar(
         title: Text('MLH WEB3 CHAT APP'),
         foregroundColor: Colors.yellowAccent,
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.redAccent,
       ), //appbar
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ImageBanner("./assets/images/sayonara.jpeg"),
-          TextSection(Colors.red),
-          TextSection(Colors.blue),
-          TextSection(Colors.green),
+          TextSection("Mount Fuji",
+              "It is a mystical mountain with the most serene starked snow on top"),
+          // TextSection(Colors.blue),
+          // TextSection(Colors.green),
         ], //children
       ), //column
     ); //scaffold
