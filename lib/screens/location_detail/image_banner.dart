@@ -7,7 +7,7 @@ class ImageBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        constraints: BoxConstraints(minHeight: 200.0),
+        constraints: BoxConstraints(maxHeight: 200.0),
         decoration: BoxDecoration(color: Colors.grey),
         child: Image.asset(
           _assetPath,
