@@ -14,11 +14,11 @@ class TextSection extends StatelessWidget {
         children: [
           Container(
             padding: const EdgeInsets.fromLTRB(_hpad, 32.0, _hpad, 4.0),
-            child: Text(_title),
+            child: Text(_title, style: TextStyle(fontFamily: 'GlassAntiqua')),
           ),
           Container(
             padding: const EdgeInsets.fromLTRB(_hpad, 10.0, _hpad, 4.0),
-            child: Text(_body),
+            child: Text(_body, style: TextStyle(fontFamily: 'GlassAntiqua')),
           ),
         ]); //column
   } // widget
