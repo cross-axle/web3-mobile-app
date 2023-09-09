@@ -9,7 +9,7 @@ class LocationDetail extends StatelessWidget {
       appBar: AppBar(
         title: Text('MLH WEB3 CHAT APP'),
         foregroundColor: Colors.yellowAccent,
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.redAccent,
       ), //appbar
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,

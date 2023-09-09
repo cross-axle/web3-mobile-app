@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextSection extends StatelessWidget {
+<<<<<<< HEAD
 //final is immutable
   final String _title;
   final String _body;
