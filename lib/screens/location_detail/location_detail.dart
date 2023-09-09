@@ -16,9 +16,12 @@ class LocationDetail extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ImageBanner("./assets/images/sayonara.jpeg"),
-          TextSection(Colors.red),
-          TextSection(Colors.blue),
-          TextSection(Colors.green),
+          TextSection("Bitcoin",
+              "The most popular cryptocurrency in the world, it has taken the world by storm and hence popularised the term web3"),
+          TextSection("Under the hood: Blockchain",
+              "The underlying technology being blockchain, which is basically a decentralised/peer-to-peer ledger using keys to authenticate transactions"),
+          TextSection(
+              "Satoshi Nakamoto", "He is known as the father of bitcoin"),
         ], //children
       ), //column
     ); //scaffold

@@ -1,16 +1,25 @@
 import 'package:flutter/material.dart';
 
 class TextSection extends StatelessWidget {
-  final Color _color; //final is immutable
-
-  TextSection(this._color);
+//final is immutable
+  final String _title;
+  final String _body;
+  static const double _hpad = 16.0;
+  TextSection(this._title, this._body);
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.yellow,
-      ), //box decor
-      child: Text('Global Hack Week WEB-3'),
-    ); //container
+    return Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Container(
+            padding: const EdgeInsets.fromLTRB(_hpad, 32.0, _hpad, 4.0),
+            child: Text(_title),
+          ),
+          Container(
+            padding: const EdgeInsets.fromLTRB(_hpad, 10.0, _hpad, 4.0),
+            child: Text(_body),
+          ),
+        ]); //column
   } // widget
 } //class
