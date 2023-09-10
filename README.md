@@ -1,6 +1,6 @@
-# learningflutter
+# MLH WEB-3 APP
 
-A new Flutter project.
+A work-in-progress, Building a web-3 based app for MLH's global hack week on web3, in flutter. 
 
 ## Getting Started
 
