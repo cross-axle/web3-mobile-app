@@ -14,7 +14,7 @@ class TextSection extends StatelessWidget {
         children: [
           Container(
             padding: const EdgeInsets.fromLTRB(_hpad, 32.0, _hpad, 4.0),
-            child: Text(_title, style: TextStyle(fontFamily: 'GlassAntiqua')),
+            child: Text(_title, style: TextStyle(fontFamily: 'NotoSerifJP')),
           ),
           Container(
             padding: const EdgeInsets.fromLTRB(_hpad, 10.0, _hpad, 4.0),

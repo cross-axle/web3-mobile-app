@@ -79,7 +79,12 @@ flutter:
     fonts:
       - asset: "assets/fonts/GlassAntiqua-Regular.ttf"
         weight: 300
-  
+
+
+  - family: NotoSerifJP
+    fonts:
+      - asset: "assets/fonts/NotoSerifJP-Regular.otf" 
+        weight: 300
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 
