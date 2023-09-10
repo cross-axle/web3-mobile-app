@@ -16,6 +16,7 @@ jobs:
         with:
           flutter-version: '3.0.0'
           channel: 'stable'
+      - run: flutter upgrade
       - run: flutter pub get
       - run: flutter test
       - run: flutter build apk
